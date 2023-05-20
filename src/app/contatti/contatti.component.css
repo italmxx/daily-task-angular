@@ -1,0 +1,27 @@
+.container{
+  width: 1000px;
+  height: 700px;
+  margin-top: 20px;
+}
+
+.links{
+  width: 500px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 300px auto;
+  padding: 100px;
+  gap: 50px;
+}
+
+svg{
+
+  width: 200px;
+  height: 200px;
+}
+
+svg:hover{
+  scale: 1.5;
+  transition: 0.6s;
+}

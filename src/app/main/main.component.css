@@ -1,0 +1,48 @@
+.container{
+  width: 100vw;
+  height: 100%;
+  border-radius: 15px;
+  margin: 30px auto;
+  background: linear-gradient(145deg,rgb(219, 90, 90),rgb(71, 13, 163), rgb(0, 138, 207) );
+  background-blend-mode: color-burn;
+}
+
+.container h1{
+  margin: 20px auto;
+  padding-top: 20px;
+  text-align: center;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container h1:hover{
+  color: rgb(187, 0, 0);
+  transition: 0.5s;
+}
+
+.form-group label{
+  margin: 15px 0;
+
+}
+form button{
+  margin: 20px 0;
+}
+
+form{
+  font-weight: bold;
+}
+
+#myCheckbox{
+  width: 20px;
+  height: 20px;
+
+}
+
+tbody td:first-child{
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
